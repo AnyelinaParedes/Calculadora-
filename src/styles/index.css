@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,96 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.App{
+   
+    background-image: url("https://i.pinimg.com/originals/aa/88/0f/aa880f0e8807323e683a1c10e97b0820.gif");
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+
+.caculadora {
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+   
+    border-radius: 20px;
+    border: 5px solid white;
+
+}
+
+.fila {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton-contenedor {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .boton-contenedor:hover {
+    background-color: #5a01a7;
+  }
+  
+  .operador {
+    background-color: #00471b;
+  }
+  
+  .operador:hover {
+    background-color: #ff6600;
+  }
+  .input {
+    height: 75px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #e6e6e7;
+    color: rgb(70, 17, 17);
+    padding: 11px 30px 11px 11px;
+    margin: 1px solid #888;
+    box-shadow: -1px 4px 1px 1px white;
+  }
+  
+.boton-clear {
+    height: 80px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: #8f3e5e;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 45px;
+    cursor: pointer;      
+  }
+  
+  .boton-clear:hover {
+    background-color: #ebb000;
+  }
